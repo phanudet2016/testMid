@@ -1,0 +1,34 @@
+------------ Babun ------------
+step1. npm install -g vue-cli // Å§¤ÃÑé§à´ÕÂÇ
+step2. vue init webpack my-project // ÊÃéÒ§ project
+step3. npm install
+step4. npm run dev // ´ÙÇèÒãªéä´éÁÑéÂ
+------------------------------
+
+-------- Packages atom -------
+language-vue // Å§ã¹ atom äÎäÅ·ìµÑÇË¹Ñ§Ê×Í
+file-icon // icon
+atom-beautify // ¨Ñ´â¤é´ HTML ãËéÊÇÂ 
+linter // àªç¤ error ãËé
+linter-js-standard // àªç¤ error ãËé
+linter-eslint // àªç¤ error ãËé (Packages=>linter-eslint=>Setings=>Lint HTML Files)
+------------------------------
+
+-------- themes -----------
+ä¿Åì .zshrc á¡é¨Ò¡ ZSH_THEME="babun" à»ç¹ ZSH_THEME="cobalt2"
+source ~/.zshrc // ¤ÓÊÑè§ÃÕà«ç·ãËéãªé themes
+---------------------------
+
+--------UP Git -----------
+…or create a new repository on the command line
+echo "# testGit" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/phanudet2016/testGit.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/phanudet2016/testGit.git
+git push -u origin master
+--------------------------

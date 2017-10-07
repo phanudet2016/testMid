@@ -1,0 +1,20 @@
+key in vue instance
+1.  el
+2. data
+3. methods
+4. computed
+
+************************
+
+directive
+1. v-bind
+2. v-if
+3. v-for
+4. v-on
+5. v-model
+
+************************
+Add Data
+https://jsfiddle.net/50wL7mdz/61886/
+
+************************

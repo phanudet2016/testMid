@@ -1,0 +1,47 @@
+https://www.notion.so/Firebase-Basic-with-Node-js-6d717cb323664ffc9d04239932ad18c0   //Firebase Basic with Node.js
+https://www.notion.so/Firebase-Basic-with-Vue-js-488f08767cb945db88aec6e88ed2b939    //Firebase Basic with Vue.js
+***************************************************
+$ npm install --global yarn // ลง yarn
+
+$ npm install -g vue-cli // ลงครั้งเดียว
+$ vue init webpack vue-firebase-map
+
+? Project name ""
+? Project description A Vue.js project
+? Author Nati Namvong <nati@flyingcomma.com>
+? Vue build standalone
+? Install vue-router? Yes
+? Use ESLint to lint your code? Yes
+? Pick an ESLint preset Standard
+? Setup unit tests with Karma + Mocha? No
+? Setup e2e tests with Nightwatch? No
+
+$ cd vue-firebase-map
+$ yarn
+$ yarn dev
+
+***************************************************  
+
+ติดตั้ง Firebase cli
+$ npm i -g firebase-tools
+
+Init Firebase Project
+$ firebase init
+
+Setup Firebase
+? What file should be used for Database Rules? database.rules.json
+? What do you want to use as your public directory? dist
+? Configure as a single-page app (rewrite all urls to /index.html)? Yes
+
+Deploy to Firebase Hosting
+$ yarn build
+$ firebase deploy
+
+Install firebase and vuefire
+https://github.com/vuejs/vuefire
+$ yarn add firebase vuefire
+
+main.js
+import VueFire from 'vuefire'
+Vue.use(VueFire)
+

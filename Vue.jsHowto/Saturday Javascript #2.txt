@@ -1,0 +1,17 @@
+Saturday Javascript #2
+วันเสาร์ที่ 26 สิงหาคม เวลา 9:00 - 16:00 ที่ห้อง B4-15
+
+ใครไม่ได้มาครั้งที่แล้ว อย่าลืมเตรียมตัวให้พร้อม
+ติดตั้งโปรแกรมต่อไปนี้มาให้เรียบร้อย จะได้ไม่เสียเวลา
+
+1. git scm 
+Download ได้ที่ https://git-scm.com/downloads
+
+2. node.js (ให้ติดตั้งเวอร์ชั่น 6.11.2 นะครับ)
+Download ได้ที่ https://nodejs.org/en 
+
+3. yarn
+หลังจากติดตั้ง Node.js แล้วให้เปิด command line แล้วรันคำสั่ง 'npm install -g yarn'
+
+4. ava.js
+หลังจากติดตั้ง yarn แล้วให้เปิด command line แล้วรันคำสั่ง 'yarn global add ava'
